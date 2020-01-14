@@ -24,7 +24,7 @@ import java.util.List;
 public class LeetCode015 {
     public List<List<Integer>> threeSum(int[] nums) {
         if(null == nums || nums.length < 3) {
-            return null;
+            return new ArrayList<>();
         }
         Arrays.sort(nums);
 
