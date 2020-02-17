@@ -30,10 +30,4 @@ public class LeetCode206 {
         }
         return c2;
     }
-
-    class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { this.val = x; }
-    }
 }
