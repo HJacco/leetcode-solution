@@ -1,4 +1,4 @@
-package com.study;
+package com.study.dynamic.program;
 
 /**
  * 硬币  2  5  7  用最少的硬币数拼出27
