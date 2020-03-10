@@ -42,7 +42,7 @@ public class LeetCode015 {
             while (left < right) {
                 int sum = nums[i] + nums[right] + nums[left];
                 if(sum == 0) {
-                    result.add(Arrays.asList(new Integer[]{nums[i], nums[left], nums[right]}));
+                    result.add(Arrays.asList(nums[i], nums[left], nums[right]));
                     while (left < right && nums[left] == nums[left + 1]) {
                         left ++;
                     }
